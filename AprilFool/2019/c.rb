@@ -1,0 +1,1 @@
+puts $stdin.read.split(?\n)[1..-1].map(&:split).sort.map{|x|x.join(" ")}.join(?\n)
